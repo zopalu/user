@@ -1,6 +1,11 @@
 bfs dfs
 https://chat.openai.com/share/d87464bd-ebca-438b-91a9-b23efa299e14
 
+8_puzzle
+https://chat.openai.com/share/18a9f5fb-b907-44f5-b0b5-9fab2d6d8135
+
+selection sort 
+https://chat.openai.com/share/46c76c7c-36e9-496e-b410-762648eb8fbf
 
 Job scheduling 
 https://chat.openai.com/share/5ba144ab-8a67-4c4f-8110-229b10e9d05b
