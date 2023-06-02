@@ -1,0 +1,18 @@
+public class delAcc {
+	public static void deleteacc()
+    {
+        List<Account> acclist = [Select id, name, description from account];
+        if(!acclist.isEmpty())
+        {
+            for(Account acc : acclist)
+            {
+                if(acc.name == 'Dickenson plc' )
+                {
+                    delete acc;
+                    System.debug('Deleted');
+                }
+            }
+        }
+      
+    }
+}

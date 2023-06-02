@@ -1,0 +1,21 @@
+public class hello {
+	public static void updateacc()
+    {
+        List<Account> acclist = [Select id, name, description from account];
+        if(!acclist.isEmpty())
+        {
+            for(Account acc : acclist)
+            {
+                if(acc.name == 'Dickenson plc' )
+                {
+                    acc.description = 'Helloo!!';
+                }
+            }
+        }
+        if(!acclist.isEmpty())
+        {
+            update acclist;
+        }
+        
+    }
+}

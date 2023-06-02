@@ -1,0 +1,47 @@
+0.
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-lamp-amazon-linux-2023.html
+
+1.
+sudo dnf update -y
+
+2.
+sudo dnf install -y httpd wget php-fpm php-mysqli php-json php php-devel
+
+3.
+sudo dnf install mariadb105-server
+
+4.
+dnf info mariadb105
+
+5.start apache webserver
+sudo systemctl start httpd
+
+6. configure apache
+sudo systemctl enable httpd
+
+7. check
+sudo systemctl is-enabled httpd
+
+8.
+sudo usermod -a -G apache ec2-user
+
+9.
+exit
+
+10.
+groups
+
+11.
+sudo chown -R ec2-user:apache /var/www
+
+12.
+sudo chmod 2775 /var/www && find /var/www -type d -exec sudo chmod 2775 {} \;
+
+13.
+find /var/www -type f -exec sudo chmod 0664 {} \;
+
+14.
+find /var/www -type f -exec sudo chmod 0664 {} \;
+
+15.
+echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php

@@ -1,0 +1,21 @@
+bfs dfs
+https://chat.openai.com/share/d87464bd-ebca-438b-91a9-b23efa299e14
+
+
+Job scheduling 
+https://chat.openai.com/share/5ba144ab-8a67-4c4f-8110-229b10e9d05b
+
+Prims 
+https://chat.openai.com/share/ad7490af-5918-43c6-8489-9b3246fefa32
+
+Kruskal's algo 
+https://chat.openai.com/share/6a98e4f0-c157-4670-b8b8-b831a29a7e06
+
+Dijkstra algo
+https://chat.openai.com/share/ec9bcdde-ca82-4229-98bb-8666b67f8ab4
+
+N queen problem 
+https://chat.openai.com/share/47e4c357-bbac-4fd2-9f09-277576633777
+
+graph color
+https://chat.openai.com/share/8c748824-520a-4e8d-af9b-3a6618b5db87

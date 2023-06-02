@@ -1,0 +1,11 @@
+public class AccountInsertion {
+    public static void insertAccount() {
+        Account acc = new Account();
+        acc.Name = 'New Account';
+        acc.description = 'Hiiiiii';
+
+        insert acc;
+
+        System.debug('Account inserted with ID: ' + acc.Id);
+    }
+}
